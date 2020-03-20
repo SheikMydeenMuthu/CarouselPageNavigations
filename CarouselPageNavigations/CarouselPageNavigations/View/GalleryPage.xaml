@@ -12,7 +12,11 @@
             <Image Margin="0,50,0,0" x:Name="imgBanner" Source="prism.png" ></Image>
         </StackLayout>
         <StackLayout HorizontalOptions="Center" VerticalOptions="End">
-            <cv:ImageCarousel x:Name="imgSlider"  Images="{Binding ImageSources}" HeightRequest="300" WidthRequest="300" />
+            <cv:ImageCarousel x:Name="imgSlider"  
+                              Images="{Binding ImageSources}" 
+                              HeightRequest="300" 
+                              WidthRequest="300" 
+                                />
         </StackLayout>
     </StackLayout>
     

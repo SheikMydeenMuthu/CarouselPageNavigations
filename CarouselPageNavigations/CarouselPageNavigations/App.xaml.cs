@@ -10,7 +10,7 @@ namespace CarouselPageNavigations
         {
             InitializeComponent();
 
-            MainPage = new CarouselPageNavigations.View.GalleryPage();
+            MainPage = new CarouselPageNavigations.View.ImageGalley();
         }
 
         protected override void OnStart()
